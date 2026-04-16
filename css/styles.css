@@ -1,0 +1,22 @@
+hr{
+    border: 1.5px solid black;
+}
+marquee{
+    color: blue;
+    font-size: 15px;
+}
+img{
+    padding-top: 9px;
+}
+.btn-primary{
+    background-color: blue;
+    border-color: yellow;
+    color: yellow;
+    transition: 3s;
+}
+.btn-primary:hover{
+    background-color: yellow;
+    border-color: blue;
+    color: blue;
+    transition: 3s;
+}
