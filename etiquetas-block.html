@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas Block</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body class="container py-4">
+    <header class="mb-4">
+        <h1>Ejemplos de etiquetas block</h1>
+        <p class="lead">Esta página muestra etiquetas de bloque comunes en HTML.</p>
+        <nav>
+            <a class="btn btn-primary" href="index.html">Volver al index</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="mb-4">
+            <h2>Sección con párrafos</h2>
+            <p>Un párrafo es una etiqueta block ideal para agrupar ideas en texto largo.</p>
+            <p>También se puede combinar con otras etiquetas de estructura para crear contenido legible.</p>
+        </section>
+
+        <article class="mb-4 p-3 border rounded">
+            <h2>Artículo</h2>
+            <p>Este bloque representa contenido independiente, como una noticia o publicación.</p>
+            <blockquote class="blockquote">
+                "La práctica constante en HTML mejora la estructura y semántica del sitio."
+            </blockquote>
+        </article>
+
+        <section class="mb-4">
+            <h2>Listas de bloque</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Lista no ordenada (ul)</h3>
+                    <ul>
+                        <li>HTML semántico</li>
+                        <li>CSS para estilos</li>
+                        <li>JavaScript para interactividad</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3>Lista ordenada (ol)</h3>
+                    <ol>
+                        <li>Planificar la estructura</li>
+                        <li>Escribir el contenido</li>
+                        <li>Aplicar estilos</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-4">
+            <h2>Lista de definiciones (dl)</h2>
+            <dl>
+                <dt>Frontend</dt>
+                <dd>Parte visual e interactiva de una aplicación web.</dd>
+                <dt>Backend</dt>
+                <dd>Parte lógica y de datos que corre en el servidor.</dd>
+            </dl>
+        </section>
+
+        <section class="mb-4">
+            <h2>Tabla</h2>
+            <table class="table table-bordered table-striped">
+                <caption>Materias y horas semanales</caption>
+                <thead>
+                    <tr>
+                        <th>Materia</th>
+                        <th>Año</th>
+                        <th>Horas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ingeniería de Software II</td>
+                        <td>2°</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>Base de Datos</td>
+                        <td>2°</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Programación Web</td>
+                        <td>2°</td>
+                        <td>5</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"><strong>Total</strong></td>
+                        <td><strong>15</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section class="mb-4">
+            <h2>Figure y pre</h2>
+            <figure class="p-3 border rounded">
+                <pre>
+&lt;section&gt;
+  &lt;h2&gt;Título&lt;/h2&gt;
+  &lt;p&gt;Contenido del bloque&lt;/p&gt;
+&lt;/section&gt;
+                </pre>
+                <figcaption>Ejemplo de estructura semántica en bloque.</figcaption>
+            </figure>
+        </section>
+
+        <aside class="alert alert-secondary">
+            Este <strong>aside</strong> contiene información complementaria del contenido principal.
+        </aside>
+    </main>
+
+    <footer class="mt-4">
+        <hr>
+        <address>
+            Tecnicatura Superior en Desarrollo de Software<br>
+            Ingeniería del Software II
+        </address>
+        <a class="btn btn-outline-primary" href="index.html">Volver al index</a>
+    </footer>
+</body>
+</html>
